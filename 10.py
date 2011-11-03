@@ -2,7 +2,7 @@ from ashu import timer
 
 def is_prime(number,prime_list):
     for prime in prime_list:
-        if number % prime ==0:
+        if number % prime == 0:
             return False
     prime_list.append(number)
     return True
